@@ -236,6 +236,10 @@ def clientBot(op):
 							sendPost = _session.post(url, data=data, headers=headers)
 						elif cmd == "me":
 							_session = requests.session()
+							sep = text.split(" ")
+							txt = text.replace(sep[0] + " ","")
+							groups = client.getGroupIdsJoined()
+							for group in groups:
 							image = "https://lh3.googleusercontent.com/proxy/-qcXIaVI5RPLI_rZgSi8T-QyHCDuVXRoFQUksJ2tzKKOGt8vGLQ6EW7yZBO9SIpQ0b5GlZgahj8S4lENJRr2PDK7jN-vPImkR628uGfvOlr3HpSjBCWrGfCGiOsj9pT7PjH8OuZ6bZ7_9RB7tTeUcmld8U5z=w256-h256-nc"
 							url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
 							headers = {
@@ -274,7 +278,7 @@ def clientBot(op):
                                                                                   },
                                                                                   {
                                                                                     "type": "text",
-                                                                                    "text": " MID:\n {}\n\n Nama:\n  {}\n\nStatus:\n  {}".format(contact.mid,contact.displayName,contact.statusMessage),
+                                                                                    "text": " test:\n  {}".format(str(text))),
                                                                                     "wrap": True
                                                                                   }
                                                                                ]
