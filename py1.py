@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from LineAPI.linepy import *
+from line.linepy import *
 from gtts import gTTS
 from bs4 import BeautifulSoup
 from datetime import datetime
