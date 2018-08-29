@@ -34,7 +34,7 @@ try:
 except Exception as error:
 	print(error)
 with open("authToken.txt", "w") as token:
-    token.write(str(client.authToken))
+    token.write(str(LINE.authToken))
 channel = Channel(client, client.server.CHANNEL_ID['JUNGEL_PANG'])
 channelToken = channel.getChannelResult()
 clientMid = client.profile.mid
