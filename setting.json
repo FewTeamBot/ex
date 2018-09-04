@@ -1,28 +1,32 @@
 {
+    "CPict2": true,
+    "CVid2": false,
     "autoAdd": false,
-    "autoAddMessage": "tremm @!, add me",
+    "autoAddMessage": "",
     "autoJoin": false,
-    "autoJoinMessage": "tremm @!, invite me",
+    "autoJoinMessage": "",
     "autoJoinTicket": false,
     "autoRead": false,
     "autoRespon": false,
-    "autoResponMessage": " @!, kange niee",
+    "autoResponMessage": "",
     "changeGroupPicture": [],
     "changePictureProfile": false,
+    "changevp": true,
     "checkContact": false,
     "checkPost": false,
     "checkSticker": false,
     "detectUnsend": false,
-    "keyCommand": "",
+    "fotterlink": "https://www.instagram.com/akedboy",
+    "keyCommand": ".",
     "mimic": {
         "status": false,
         "target": {}
     },
     "myProfile": {
-        "coverId": "",
-        "displayName": "",
-        "pictureStatus": "",
-        "statusMessage": ""
+        "coverId": "e9a7b042178d5bc0b075468b5fb42a3f",
+        "displayName": "ғ",
+        "pictureStatus": "0hu61JeB1UKhkMMwdGgOxVTjB2JHR7HSxRdFQwey5kcnkjVGRNYgY1Ly8zJy9xUz8fY1xteHkzICt0",
+        "statusMessage": "[Filter Chat]\nSlow Resp\nFast Resp Just For Him\n\nEveryone can be cool. 􀄃􀇑cool􏿿\n----------------------------------------\nQanitha􀂱\n--------\nↁ∅₵\n(Defender øf Crime) \n--------------------------------\n\nsuport by :\n\nT̷̨̳͎̥̤͚̄̽͛͌̿Ç̞̫͙̘̟̣̮͑̍̿͗̌̆̆͋R̷̳̜̼̟̱̳̬͉̖͖̐̀̇̒̾  T̶̢̙̥̟̫̽̍͛̎͠͞Ȇ̸̱͉̬̞̩̠͈̘̰̅̉̏̚͢A̶̢̹̝͔͎̯̟̝̪͛̐̑̉͑͟M̸͓̦̟̱̘̿͗̓͒̽̑͋͞\nN҉O҉T҉I҉T҉L҉E҉.\nƘ͐͢͠Ȅ͖ β̸̷͢͝δ͠Т̸͍͝ Δ̸͜͡͠Π͜͡҈҈҉"
     },
-    "setKey": false
+    "setKey": true
 }
