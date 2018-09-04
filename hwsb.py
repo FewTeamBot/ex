@@ -5,7 +5,7 @@ from gtts import gTTS
 from bs4 import BeautifulSoup
 from datetime import datetime
 from googletrans import Translator
-import ast, codecs, json, os, pytz, re, threading, random, requests, sys, time, urllib.parse, humanize
+import ast, codecs, json, os, pytz, re, random, requests, sys, time, urllib.parse
 
 listApp = ["IOSIPAD", "CHROMEOS", "DESKTOPWIN", "DESKTOPMAC", "WIN10"]
 try:
